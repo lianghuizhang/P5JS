@@ -1,0 +1,54 @@
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(220);
+  stroke(0,80,0);
+  strokeWeight(3);
+  fill(0,0,0);
+  rect(300,200,190,200); //body
+  rect(219,200,90,200); //left hand
+  rect(490,200,90,200); //right hand
+  rect(310,400,90,180); //left leg 
+  rect(400,400,90,180); //right leg 
+  fill(0,30,0)
+  ellipse(400,140,150,150); //outter circle
+  fill(0,0,0);
+  ellipse(400,140,100,100); // inner circle 
+  fill(0,0,0);
+  ellipse(330,200,60,60); //left circle 
+  fill(0,0,0);
+  ellipse(470,200,60,60); //right circle 
+  point(400,400,400,400);
+  fill(51,249,51);
+  fill(0,241,0);
+  ellipse(470,200,50,50); //inner right circle 
+  fill(0,241,0);
+  ellipse(330,200,50,50); // innerleft circle 
+  fill(0,0,0);
+  ellipse(330,200,10,40); //eye
+  fill(0,0,0);
+  ellipse(470,200,10,40); //eye 
+  fill(51,249,51);
+  fill(0,241,0);
+  rect(397,220,5,30);
+  fill(0,241,0);
+  ellipse(400,280,50,50);
+  fill(0,0,0);
+  ellipse(400,280,9,45);
+  stroke(0,0,0);
+  fill(9,53,0);
+  triangle(200,20,330,120,320,85);//Right Horn 
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/lianghuizhang/p5js/blob/master/Zoog.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
